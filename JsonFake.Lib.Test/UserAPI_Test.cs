@@ -39,4 +39,12 @@ public class UserAPI_Test
         
         Assert.Equal(expectedUser, actualUser);
     }
+
+    [Fact]
+    public void GetUserById_BadTest()
+    {
+        var userApi = new UserAPI();
+        var user = userApi.GetUserById(0);
+        Assert.Null(user);
+    }
 }
