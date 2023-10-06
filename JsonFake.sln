@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFake.ConsoleApp", "Json
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFake.Lib", "JsonFake.Lib\JsonFake.Lib.csproj", "{C2DDF24F-47AF-4001-9C1A-055E07257D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFake.Lib.Test", "JsonFake.Lib.Test\JsonFake.Lib.Test.csproj", "{3DCDC3A6-CEA3-49AA-88AC-E0A7D3570ABD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C2DDF24F-47AF-4001-9C1A-055E07257D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DDF24F-47AF-4001-9C1A-055E07257D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DDF24F-47AF-4001-9C1A-055E07257D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCDC3A6-CEA3-49AA-88AC-E0A7D3570ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCDC3A6-CEA3-49AA-88AC-E0A7D3570ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCDC3A6-CEA3-49AA-88AC-E0A7D3570ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCDC3A6-CEA3-49AA-88AC-E0A7D3570ABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
