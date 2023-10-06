@@ -7,4 +7,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\JsonFake.Lib\JsonFake.Lib.csproj" />
+    </ItemGroup>
+
 </Project>
