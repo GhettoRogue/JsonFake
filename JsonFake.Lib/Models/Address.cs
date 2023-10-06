@@ -2,7 +2,7 @@
 
 namespace JsonFake.Lib.Models;
 
-public class Address
+public record Address
 {
     [JsonPropertyName("street")]
     public string Street { get; set; }

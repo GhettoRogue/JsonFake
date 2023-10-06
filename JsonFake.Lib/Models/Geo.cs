@@ -2,7 +2,7 @@
 
 namespace JsonFake.Lib.Models;
 
-public class Geo
+public record Geo
 {
     [JsonPropertyName("lat")]
     public string Lat { get; set; }
